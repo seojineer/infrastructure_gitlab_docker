@@ -17,7 +17,7 @@ Password: {Initial password of root account}
 
 ...
 
-You can login with info(root/{initial password}) on http://localhost:4000.
+You can login with info(root/{initial password}) on http://localhost
 
 4. Change password of root
 You can change password on gitlab setting pages.
