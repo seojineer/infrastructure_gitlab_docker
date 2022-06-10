@@ -20,5 +20,3 @@ services:
       - "/srv/gitlab/config:/etc/gitlab"
       - "/srv/gitlab/logs:/var/log/gitlab"
       - "/srv/gitlab/data:/var/opt/gitlab"
-    environment:
-      - JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
