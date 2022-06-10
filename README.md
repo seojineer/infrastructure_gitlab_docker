@@ -13,7 +13,7 @@ $ docker exec -it gitlab /bin/bash
 root@gitlab:/# cat /etc/gitlab/initial_root_password
 ...
 
-Password: {Inirial password of root account}
+Password: {Initial password of root account}
 
 ...
 
