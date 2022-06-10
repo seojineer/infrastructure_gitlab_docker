@@ -1,5 +1,8 @@
 This repository is about running gitlab with docker.
 
+--------------------------------------------------------------------
+How to run gitlab docker container
+--------------------------------------------------------------------
 1. Create volume directory
 $ mkdir -p {gitlab_dir}/config
 $ mkdir -p {gitlab_dir}/logs
@@ -21,3 +24,13 @@ You can login with info(root/{initial password}) on http://localhost
 
 4. Change password of root
 You can change password on gitlab setting pages.
+
+--------------------------------------------------------------------
+
+Appendix)
+
+1. Subgit
+You should login to git account to use subgit.
+
+$ su git
+$ subgit -h
