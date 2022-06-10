@@ -3,7 +3,7 @@ version: '3.4'
 
 services:
   gitlab:
-    image: 'seojikim/gitlab-ce:2022.06'
+    image: 'seojikim/gitlab-ce:latest'
     build: .
     restart: always
     hostname: '10.17.10.190'
@@ -20,3 +20,5 @@ services:
       - "/srv/gitlab/config:/etc/gitlab"
       - "/srv/gitlab/logs:/var/log/gitlab"
       - "/srv/gitlab/data:/var/opt/gitlab"
+    environment:
+      - JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
